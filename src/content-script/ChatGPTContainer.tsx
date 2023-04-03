@@ -27,7 +27,6 @@ function ChatGPTContainer(props: Props) {
           onStatusChange={setQueryStatus}
         />
       </div>
-      {query.data && <Promotion data={query.data} />}
     </>
   )
 }
